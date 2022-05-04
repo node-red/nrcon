@@ -1415,6 +1415,7 @@ h1 {
 }
 
 .single-intro-text {
+  height: 250px;
   padding: 45px 50px 40px 60px;
   -webkit-box-shadow: 0 8px 24px #E2E8ED;
   box-shadow: 0 8px 24px #E2E8ED;
