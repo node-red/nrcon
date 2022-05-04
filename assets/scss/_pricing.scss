@@ -1,0 +1,132 @@
+/* Pricing Ticket */
+#pricing{
+	background: #f8fafa;
+    position: relative;
+	.price-block-wrapper{
+		display: inline-block;
+	    width: 100%;
+	    text-align: center;
+	    box-shadow: 0 8px 24px #E2E8ED;
+	    border-radius: 4px;
+	    background: #fff;
+	    padding: 50px 40px;
+	    -webkit-transition: all 300ms ease-in-out;
+      	-moz-transition: all 300ms ease-in-out;
+      	transition: all 300ms ease-in-out;
+	    .icon{
+	    	padding: 20px;
+	    	i{
+	    		font-size: 60px;
+	    		color: $preset;
+	    	}
+	    }
+	    .colmun-title{
+	    	h5{
+	    		font-size: 20px;
+			    color: #212121;
+			    margin-bottom: 20px;
+			    text-transform:uppercase;
+			    font-weight: 700;
+	    	}
+	    }
+	    .price{
+	    	padding-top: 10px;
+		    transition: all 500ms ease;
+		    -webkit-transition: all 500ms ease;
+		    -moz-transition: all 500ms ease;
+			h2{
+				font-size: 38px;
+			    background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+			    -webkit-background-clip: text;
+			    -webkit-text-fill-color: transparent;
+			    background-clip: text;
+			    line-height: 42px;
+			    margin-bottom: 7px;
+			}
+			span{
+				text-transform: uppercase;
+				font-size: 13px;
+			}
+			p{
+				font-size: 15px;
+			    color: #5c5c5c;
+			    font-weight: 700;
+			    letter-spacing: 1px;
+			    line-height: 30px;
+			    text-transform: uppercase;
+			    transition: all 500ms ease;
+			    -webkit-transition: all 500ms ease;
+			    -moz-transition: all 500ms ease;
+			}
+	    }
+	    .pricing-list{
+	    	padding: 15px 0;
+		    ul{
+				padding-bottom: 15px;
+		    	li{
+				    position: relative;
+				    line-height: 40px;
+				    font-size: 15px;
+				    font-weight: 400;
+				    padding: 2px 0px;
+				    i{
+				    	margin-right: 7px;
+				    	font-size: 12px;
+				    	color: $preset;
+				    }
+		    	}
+		    }
+	    }
+	    .btn{
+	    	i{
+	    		font-size: 12px;
+	    		margin-right: 5px;
+	    	}
+	    }
+	    &:hover{
+	    	box-shadow: 0 16px 48px #E2E8ED;
+	    }
+	}
+	.active{
+		background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
+		box-shadow: 0 16px 48px #E2E8ED;
+		.icon{
+	    	i{
+	    		color: #fff;
+	    	}
+	    }
+	    .colmun-title{
+	    	h5{
+			    color: #fff;
+	    	}
+	    }
+	    .price{
+			h2{
+			    background-image: linear-gradient(120deg, #fff 0%, #fff 100%);
+			    -webkit-background-clip: text;
+			    -webkit-text-fill-color: transparent;
+			    background-clip: text;
+			}
+		    span{
+		    	color: #fff;
+		    }
+			p{
+			    color: #fff;
+			}
+	    }
+	    .pricing-list{
+		    ul{
+		    	li{
+		    		color: #fff;
+				    i{
+				    	color: #fff;
+				    }
+		    	}
+		    }
+	    }
+	    .btn{
+	    	background: #fff;
+	    	color: #212121;
+	    }
+	}
+}
