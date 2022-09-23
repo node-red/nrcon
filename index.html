@@ -174,7 +174,7 @@
               <li>
                 <i class="lni-calendar"></i>
               </li>
-              <li><span><b>Date & Time</b> 7, Oct 2022<br>1:00-23:00 (UTC)</span></li>
+              <li><span><b>Date & Time</b> 7, Oct 2022<br>8:00-19:00 (UTC)</span></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 col-xs-12">
@@ -198,7 +198,7 @@
     </section>
     <!-- Information Bar End -->
 
-     <!-- intro Section Start -->
+    <!-- intro Section Start -->
     <section id="intro" class="intro section-padding">
       <div class="container">
         <div class="row">
@@ -334,7 +334,7 @@
     <!-- Counter Area End-->
 
     <!-- Speaker Section Start -->
-    <!-- <section id="speaker" class="section-padding text-center">
+    <section id="speaker" class="section-padding text-center">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -437,17 +437,17 @@
 
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- Speaker Section End -->
 
     <!-- Schedule Section Start -->
-    <!-- <section id="schedules" class="schedule section-padding">
+    <section id="schedules" class="schedule section-padding">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="section-title-header text-center">
               <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">Session Schedules</h2>
-              <p class="wow fadeInDown" data-wow-delay="0.2s">We have one Global track and two Local tracks. <br> Being digital, you can move between sessions at your convenience. <br> Session information will be added at any time. </p>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">We have two tracks. <br> Being digital, you can move between sessions at your convenience. <br> Session information will be added at any time. </p>
             </div>
           </div>
         </div>
@@ -455,30 +455,24 @@
         <div class="row">
           <div class="col-12 mb-5 text-center">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
+
               <li class="nav-item">
                 <a class="nav-link active" id="track-a-tab" data-toggle="tab" href="#track-a" role="tab" aria-controls="track-a" aria-expanded="true">
                   <div class="item-text">
-                    <h4>Global Track</h4>
-                    <h5>English Sessions</h5>
+                    <h4>Track A</h4>
+                    <!-- <h5>English Sessions</h5> -->
                   </div>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" id="track-b-tab" data-toggle="tab" href="#track-b" role="tab" aria-controls="track-b">
                   <div class="item-text">
-                    <h4>Local Track A</h4>
-                    <h5>Japanese Sessions</h5>
+                    <h4>Track B</h4>
+                    <!-- <h5>Japanese Sessions</h5> -->
                   </div>
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" id="track-c-tab" data-toggle="tab" href="#track-c" role="tab" aria-controls="track-c">
-                  <div class="item-text">
-                    <h4>Local Track B</h4>
-                    <h5>Japanese Sessions</h5>
-                  </div>
-                </a>
-              </li>
+
             </ul>
           </div>
           <div class="col-12">
@@ -488,7 +482,7 @@
 
                   <div class="tab-pane fade active show" id="track-a" role="tabpanel" aria-labelledby="track-a-tab">
                     <div id="accordion">
-                      <div class="card" v-for="(session, i) in sessions_g">
+                      <div class="card" v-for="(session, i) in sessions_a">
                         <div :id='"headingA"+i'>
                           <div class="schedule-slot-time">
                             <span>{{ session.time }}</span>
@@ -513,7 +507,7 @@
 
                   <div class="tab-pane fade" id="track-b" role="tabpanel" aria-labelledby="track-b-tab">
                     <div id="accordion2">
-                      <div class="card" v-for="(session, i) in sessions_a">
+                      <div class="card" v-for="(session, i) in sessions_b">
                         <div :id='"headingB"+i'>
                           <div class="schedule-slot-time">
                             <span>{{ session.time }}</span>
@@ -536,39 +530,30 @@
                     </div>
                   </div>
 
-                  <div class="tab-pane fade" id="track-c" role="tabpanel" aria-labelledby="track-c-tab">
-                    <div id="accordion3">
-                      <div class="card" v-for="(session, i) in sessions_b">
-                        <div :id='"headingC"+i'>
-                          <div class="schedule-slot-time">
-                            <span>{{ session.time }}</span>
-                            {{ session.type }}
-                          </div>
-                          <div class="collapsed card-header" data-toggle="collapse" :data-target='"#collapseC"+i' aria-expanded="false" :aria-controls='"collapseC"+i'>
-                            <div class="images-box">
-                              <img class="img-fluid" :src=session.photo alt="">
-                            </div>                     
-                            <h4>{{ session.title }}</h4>
-                            <h5 class="name">{{ session.speaker }}, {{ session.company }}</h5>
-                          </div>
-                        </div>
-                        <div :id='"collapseC"+i' class="collapse" :aria-labelledby='"headingC"+i' data-parent="#accordion3">
-                          <div class="card-body">
-                            <p><pre style="white-space: pre-wrap">{{ session.abstract }}</pre></p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- Schedule Section End -->
+
+    <!-- Recording video Section -->
+    <!-- <section id="video" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">Stream video</h2>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/xrDR7Eex7vs?start=45&cc_load_policy=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Oi6j08bA-Hc?start=1204" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Recording video Section End -->
 
     <!-- Gallery Section Start -->
     <section id="gallery" class="section-padding">
@@ -1060,15 +1045,14 @@
     <script src="assets/js/form-validator.min.js"></script>
     <script src="assets/js/contact-form-script.min.js"></script>
     
-    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script>
-      axios.defaults.baseURL = 'https://node-red-con-2022.herokuapp.com';
+      axios.defaults.baseURL = 'https://nrcon.nodered.org/';
 
       new Vue({
         el: '#myTabContent',
         data: {
-          sessions_g: [],
           sessions_a: [],
           sessions_b: []
         },
@@ -1076,18 +1060,15 @@
          'track'
         ],
         mounted :function(){
-          axios.get('/sessions/g')
-            .then(response => this.sessions_g = response.data)
-            .catch(error => console.log(error))
-          axios.get('/sessions/ena')
+          axios.get('/sessions/a.json')
             .then(response => this.sessions_a = response.data)
             .catch(error => console.log(error))
-          axios.get('/sessions/enb')
+          axios.get('/sessions/b.json')
             .then(response => this.sessions_b = response.data)
             .catch(error => console.log(error))
         }
       })
-    </script> -->
+    </script>
 
   </body>
 </html>

@@ -1,0 +1,20 @@
+[
+    {
+        "time": "12:00-12:40",
+        "type": "Opening Keynote",
+        "title": "coming soon",
+        "abstract": "coming soon",
+        "speaker": "coming soon",
+        "photo": "https://nrcon.nodered.org/assets/img/speaker/noimage.png",
+        "company": "coming soon"
+    },
+    {
+        "time": "18:50-19:00",
+        "type": "Wrap Up",
+        "title": "coming soon",
+        "abstract": "coming soon",
+        "speaker": "coming soon",
+        "photo": "https://nrcon.nodered.org/assets/img/speaker/noimage.png",
+        "company": "coming soon"
+    }
+]
