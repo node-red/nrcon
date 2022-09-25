@@ -772,16 +772,17 @@
               <li class="nav-item">
                 <a class="nav-link active" id="track-a-tab" data-toggle="tab" href="#track-a" role="tab" aria-controls="track-a" aria-expanded="true">
                   <div class="item-text">
-                    <h4>English Track</h4>
-                    <!-- <h5>English Sessions</h5> -->
+                    <h4>Japanese Track</h4>
+                    <h5>UTC-9</h5>
+
                   </div>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" id="track-b-tab" data-toggle="tab" href="#track-b" role="tab" aria-controls="track-b">
                   <div class="item-text">
-                    <h4>Japanese Track</h4>
-                    <!-- <h5>Japanese Sessions</h5> -->
+                    <h4>English Track</h4>
+                    <h5>UTC</h5>
                   </div>
                 </a>
               </li>
@@ -806,7 +807,7 @@
                               <img class="img-fluid" :src=session.photo alt="">
                             </div>                     
                             <h4>{{ session.title }}</h4>
-                            <h5 class="name">{{ session.speaker }}, {{ session.company }}</h5>
+                            <h5 class="name">{{ session.speaker }} {{ session.company }}</h5>
                           </div>
                         </div>
                         <div :id='"collapseA"+i' class="collapse" :aria-labelledby='"headingA"+i' data-parent="#accordion">
@@ -831,7 +832,7 @@
                               <img class="img-fluid" :src=session.photo alt="">
                             </div>                     
                             <h4>{{ session.title }}</h4>
-                            <h5 class="name">{{ session.speaker }}, {{ session.company }}</h5>
+                            <h5 class="name">{{ session.speaker }} {{ session.company }}</h5>
                           </div>
                         </div>
                         <div :id='"collapseB"+i' class="collapse" :aria-labelledby='"headingB"+i' data-parent="#accordion2">
@@ -1361,7 +1362,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script>
-      axios.defaults.baseURL = 'https://nrcon.nodered.org/';
+      //axios.defaults.baseURL = 'https://nrcon.nodered.org/';
 
       new Vue({
         el: '#myTabContent',
