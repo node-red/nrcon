@@ -1,20 +1,104 @@
-[
-    {
-        "time": "12:00-12:40",
-        "type": "Opening Keynote",
-        "title": "coming soon",
-        "abstract": "coming soon",
-        "speaker": "coming soon",
-        "photo": "https://nrcon.nodered.org/assets/img/speaker/noimage.png",
-        "company": "coming soon"
-    },
-    {
-        "time": "18:50-19:00",
-        "type": "Wrap Up",
-        "title": "coming soon",
-        "abstract": "coming soon",
-        "speaker": "coming soon",
-        "photo": "https://nrcon.nodered.org/assets/img/speaker/noimage.png",
-        "company": "coming soon"
-    }
-]
+[{
+	"time": "12:00-12:40",
+	"type": "Opening Keynote",
+	"speaker": "Nick O'Leary",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/nick.jpg",
+	"company": "FlowForge Inc."
+}, {
+	"time": "12:50-13:20",
+	"type": "Talk",
+	"title": "Utilization of Node-RED in the Fintech Sphere",
+	"abstract": "In this speech, i will demonstrate how Node-RED can be used for the realization of different commercial cases in the fintech sphere, also share a lot of valuable technical insights regarding the ways of working with Node-RED, showing how it can be used to solve real problems in the fintech domain.",
+	"speaker": "Dmytro Doroshenko",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/dmytro.jpg",
+	"company": "42flows.tech"
+}, {
+	"time": "13:20-13:35",
+	"type": "Break"
+}, {
+	"time": "13:35-14:05",
+	"type": "Talk",
+	"title": "Guide to the Microphone and Camera node red browser utilities",
+	"abstract": "Learn about why and how we created the Microphone and Camera nodes. I'll describe the inner workings, and create some sample flows.",
+	"speaker": "Soheel Chughtai",
+	"photo": " https://nrcon.nodered.org/assets/img/speaker/soheel.jpg",
+	"company": "IBM Software"
+}, {
+	"time": "14:05-14:35",
+	"type": "Talk",
+	"title": "MING - An OpenSource LAMP-like stack for the Internet of Things",
+	"abstract": "Remember the LAMP stack from the late 90’s when the Web was exploding?\n\nWe think it's the time for MING (MQTT, InfluxDB, Node-RED and Grafana) stack can enable the next generation of IoT Application developers. Learn how to install it in 1 click on an Edge device using balena.",
+	"speaker": "Marc Pous",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/marc.png",
+	"company": "Balena.io"
+}, {
+	"time": "14:35-15:05",
+	"type": "Talk",
+	"title": "Bringing Node-RED to Microcontrollers",
+	"abstract": "Untether your flows from your desktop! Node-RED MCU Edition lets you run flows on inexpensive microcontrollers. Use the familiar Node-RED Editor to build and debug. Then deploy flows to IoT embedded microcontrollers popular with makers and manufacturers alike, including ESP32 and ESP8266.",
+	"speaker": "Peter Hoddie",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/peterhoddie.jpg",
+	"company": "Moddable"
+}, {
+	"time": "15:05-15:20",
+	"type": "Break"
+}, {
+	"time": "15:20-15:50",
+	"type": "Talk",
+	"title": "State of the Node-RED Contributed Nodes Ecosystem",
+	"abstract": "Almost 4,000 contributed Node-RED nodes and counting, but how many are \"good\", and production-ready? And how do we define these terms? This talk will survey the Node-RED node ecosystem and strive to provide answers to these questions and more!",
+	"speaker": "Pablo Acosta-Serafini",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/pablo.jpg",
+	"company": "Prescient"
+}, {
+	"time": "15:50-16:20",
+	"type": "Talk",
+	"title": "Programmable Communications with Node-RED",
+	"abstract": "This talk will show you how to build a programmable communications workflow with Node-RED, features such as 2 way text messaging and controlling a phone call. We'll look at the different API providers on the market and how they can be used in Node-RED.",
+	"speaker": "Sam Machin",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/sam.jpg",
+	"company": "FlowForge Inc."
+}, {
+	"time": "16:20-16:35",
+	"type": "Break"
+}, {
+	"time": "16:35-17:05",
+	"type": "Talk",
+	"title": "How Node-RED is Open-Sourcing industrial automation",
+	"abstract": "Industrial Automation has been slow to adopt technology, this is because the access to learning, tools and resources are guarded.  Node-RED and the low-code paradigm changed everything.  See automation projects that have been built out of open-concepts, thanks to Node-RED and its community!",
+	"speaker": "Jesse Cox",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/jessie.jpg",
+	"company": "Wago Corp."
+}, {
+	"time": "17:05-17:35",
+	"type": "Talk",
+	"title": "No-Code AI Vision at the edge with Node-RED",
+	"abstract": "My talk will focus on using Node-RED for computer vision running on embedded edge devices. By dragging a couple of blocks into the Node-RED flow and creating a simple flow, anyone can build a complete real-time object detection system without writing a single line of code.",
+	"speaker": "Lakshantha Dissanayake",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/lakashantha.jpg",
+	"company": "Seeed Studio"
+}, {
+	"time": "17:35-17:50",
+	"type": "Break"
+}, {
+	"time": "17:50-18:20",
+	"type": "Talk",
+	"title": "IIoT E2E Contribution Package Testing",
+	"abstract": "Node-RED is a good tool for Industrial IoT (IIoT) use cases. Many contribution packages are available to install them inside Node-RED. I want to show the attendees how to build unit and e2e tests with mocha and jest and what I learned to organize code and testing for Node-RED contribution packages.",
+	"speaker": "Klaus Landsdorf",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/klaus.jpg",
+	"company": "Iniationware"
+}, {
+	"time": "18:20-18:50",
+	"type": "Talk",
+	"title": "Level Up Your Flow: Become a Better Programmer through Node-RED & Battlesnake",
+	"abstract": "In this talk we demonstrate how experienced developers can use Battlesnake as a practical way to stay up-to-date on the latest technologies, using Node-RED as a case study for how to bring the fun back to professional development and rekindle a love for learning.",
+	"speaker": "Andrew MacLean",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/andrew.jpg",
+	"company": "Battlesnake"
+}, {
+	"time": "18:50-19:00",
+	"type": "Wrap Up",
+	"title": "Closing Remarks",
+	"speaker": "hosts"
+}]
