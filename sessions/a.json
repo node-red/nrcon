@@ -34,7 +34,7 @@
 }, {
 	"time": "19:30-20:00",
 	"language": "(EN)",
-	"title": "TOKYO TOILET Project 広尾東公園でNode-REDを使った事例紹介",
+	"title": "TOKYO TOILET Project -Case study using Node-RED at Hiroo Higashi Park-",
 	"abstract": "趣味の世界でNode-REDを使いSNSで情報発信していたことが発端で大きなデザインプロジェクトのプログラム担当として加わることができました。デザイナーからの要望をNode-REDを使って作り上げることができ７月に完成しました。そのプロジェクトの紹介をしたいとおもいます。",
 	"speaker": "Takahiro Nakahata",
 	"photo": "https://nrcon.nodered.org/assets/img/speaker/Nakahata.jpg",
@@ -45,7 +45,7 @@
 }, {
 	"time": "20:10-20:40",
     "language": "(JP)",
-	"title": "スマートシティプロジェクトにおける市民開発向け開発環境のご紹介",
+	"title": "Introduction of development environment for citizen development in smart city projects",
 	"abstract": "システム開発は通常プロの技術者が実施しますが、起案からリリースまでのスパンは長いものになります。\n\nしかし、地域社会の課題解決のためには、市民の気づきやアイディアが素早く実現できるような仕組みづくりが必要ではないでしょうか。\n\nそこで、ウフルではNode-REDを活用して、スマートシティプロジェクトにおいて市民開発者向けアプリ開発基盤を提案しています。\n\nNode-REDはローコードツールであるとともに開発効率の高さや拡張性などの懐の深さがあります。スマートシティにおける共通言語として十分な役割を担えると考えています。\n\n当セッションでは、栃木県佐野市での取り組みについてご紹介致します。",
 	"speaker": "Takao Aoki",
 	"photo": "https://nrcon.nodered.org/assets/img/speaker/Aoki.jpg",
@@ -53,7 +53,7 @@
 }, {
 	"time": "20:40-21:10",
 	"language": "(JP)",
-	"title": "Node-REDとSBOM",
+	"title": "Node-RED and SBOM",
 	"abstract": "ソフトウェアの構成情報を表すSBOM(Software Bill of Materials)は、ソフトウェア開発におけるサプライチェーンリスクを低減する手段として世界的に注目されています。本セッションでは、Node-RED上で開発したシステムでのSBOMの作成方法や、Node-REDを用いたSBOMの連携方法について説明します。",
 	"speaker": "Keisuke Kajigaya",
 	"photo": "https://nrcon.nodered.org/assets/img/speaker/Kajigaya.jpg",
@@ -64,7 +64,7 @@
 }, {
 	"time": "21:20-21:50",
 	"language": "(JP)",
-	"title": "Node-RED実行環境をいろいろ試してみた",
+	"title": "Tried various Node-RED execution environments",
 	"abstract": "Node-REDの実行環境について私が体験した利点・利用シーンを4つの視点から語ります。\n- Local\n- Cloud\n- Mobile\n- Edge (Raspberry Pi, Jetson Nano)\nこれからNode-REDを利用する方、または、既に利用している方へ新たな価値やユースケースを与えられることを楽しみにしています。",
 	"speaker": "Ayachika Kitazaki",
 	"photo": "https://nrcon.nodered.org/assets/img/speaker/Kitazaki.png",
