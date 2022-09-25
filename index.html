@@ -800,13 +800,13 @@
                         <div :id='"headingA"+i'>
                           <div class="schedule-slot-time">
                             <span>{{ session.time }}</span>
-                            {{ session.type }}
                           </div>
                           <div class="collapsed card-header" data-toggle="collapse" :data-target='"#collapseA"+i' aria-expanded="false" :aria-controls='"collapseA"+i'>
                             <div class="images-box">
                               <img class="img-fluid" :src=session.photo alt="">
                             </div>                     
-                            <h4>{{ session.title }}</h4>
+                            <h4>{{ session.title }} {{ session.language }}
+                            </h4>
                             <h5 class="name">{{ session.speaker }} {{ session.company }}</h5>
                           </div>
                         </div>

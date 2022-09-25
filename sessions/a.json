@@ -1,20 +1,77 @@
-[
-    {
-        "time": "8:00-8:40",
-        "type": "Opening Keynote",
-        "title": "coming soon",
-        "abstract": "coming soon",
-        "speaker": "coming soon",
-        "photo": "https://nrcon.nodered.org/assets/img/speaker/noimage.png",
-        "company": "coming soon"
-    },
-    {
-        "time": "12:50-13:00",
-        "type": "Wrap Up",
-        "title": "coming soon",
-        "abstract": "coming soon",
-        "speaker": "coming soon",
-        "photo": "https://nrcon.nodered.org/assets/img/speaker/noimage.png",
-        "company": "coming soon"
-    }
-]
+[{
+	"time": "17:00-17:50",
+	"language": "(EN)",
+	"title": "Opening Keynote",
+	"speaker": "Nick O'Leary",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/nick.jpg",
+	"company": "FlowForge Inc."
+}, {
+	"time": "17:50-18:20",
+	"language": "(EN)",
+	"title": "Three Points to Boost Productivity in Node-RED development",
+	"abstract": "Non-pro developers are required for the rack of IT human resources. Even though Node-RED is a Low Code/No Code tool that encourages people to start making an App, some tough points still exist. This session introduces 3 points for removing the toughness to boost productivity in Node-RED development.",
+	"speaker": "Wataru Yamazaki",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/wataru.jpg",
+	"company": "Uhuru Corp."
+}, {
+	"time": "18:20-18:30",
+	"title": "Break"
+}, {
+	"time": "18:30-19:00",
+	"language": "(EN)",
+	"title": "Digital Fabrication using Node-Red",
+	"abstract": "Typical architectural construction practices have been sluggish to adopt more integrated methods of data management. Is it possible to leverage IoT-type workflows as a solution? We implemented Node-Red as a basis for a fabrication toolchain and remotely erected multiple structures around the globe.",
+	"speaker": "Alex Orsholits",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/Alex.jpg",
+	"company": "The University of Tokyo, Graduate School of Engineering, Department of Architecture, Obuchi Laboratory"
+}, {
+	"time": "19:00-19:30",
+	"language": "(EN)",
+	"title": "How to develop custom nodes from subflow",
+	"abstract": "To promote the use of cloud services or devices from Node-RED, companies can easily publish their original nodes to the Node-RED flow library. But creating custom nodes is a time-consuming task because it requires coding with Node-RED-specific development rules. To solve this situation, we developed the Node generator tool to convert to custom nodes from various sources like OpenAPI documents. Recently, this tool has supported generating custom nodes from subflow as a new source. Using the subflow functionality, all Node-RED users are able to create their original nodes from existing Node-RED flow without coding. In this session, I will show how to use the tool and integrate it with GitHub Actions to release nodes to the public semi-automatically.\n",
+	"speaker": "Kazuhito Yokoi"
+}, {
+	"time": "19:30-20:00",
+	"language": "(EN)",
+	"title": "TOKYO TOILET Project 広尾東公園でNode-REDを使った事例紹介",
+	"abstract": "趣味の世界でNode-REDを使いSNSで情報発信していたことが発端で大きなデザインプロジェクトのプログラム担当として加わることができました。デザイナーからの要望をNode-REDを使って作り上げることができ７月に完成しました。そのプロジェクトの紹介をしたいとおもいます。",
+	"speaker": "Takahiro Nakahata",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/Nakahata.jpg",
+	"company": "SmartLight Co.,Ltd."
+}, {
+	"time": "20:00-20:10",
+	"title": "Break"
+}, {
+	"time": "20:10-20:40",
+    "language": "(JP)",
+	"title": "スマートシティプロジェクトにおける市民開発向け開発環境のご紹介",
+	"abstract": "システム開発は通常プロの技術者が実施しますが、起案からリリースまでのスパンは長いものになります。\n\nしかし、地域社会の課題解決のためには、市民の気づきやアイディアが素早く実現できるような仕組みづくりが必要ではないでしょうか。\n\nそこで、ウフルではNode-REDを活用して、スマートシティプロジェクトにおいて市民開発者向けアプリ開発基盤を提案しています。\n\nNode-REDはローコードツールであるとともに開発効率の高さや拡張性などの懐の深さがあります。スマートシティにおける共通言語として十分な役割を担えると考えています。\n\n当セッションでは、栃木県佐野市での取り組みについてご紹介致します。",
+	"speaker": "Takao Aoki",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/Aoki.jpg",
+	"company": "Uhuru Corporation"
+}, {
+	"time": "20:40-21:10",
+	"language": "(JP)",
+	"title": "Node-REDとSBOM",
+	"abstract": "ソフトウェアの構成情報を表すSBOM(Software Bill of Materials)は、ソフトウェア開発におけるサプライチェーンリスクを低減する手段として世界的に注目されています。本セッションでは、Node-RED上で開発したシステムでのSBOMの作成方法や、Node-REDを用いたSBOMの連携方法について説明します。",
+	"speaker": "Keisuke Kajigaya",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/Kajigaja.jpg",
+	"company": "NEC Corporation"
+}, {
+	"time": "21:10-21:20",
+	"title": "Break"
+}, {
+	"time": "21:20-21:50",
+	"language": "(JP)",
+	"title": "Node-RED実行環境をいろいろ試してみた",
+	"abstract": "Node-REDの実行環境について私が体験した利点・利用シーンを4つの視点から語ります。\n- Local\n- Cloud\n- Mobile\n- Edge (Raspberry Pi, Jetson Nano)\nこれからNode-REDを利用する方、または、既に利用している方へ新たな価値やユースケースを与えられることを楽しみにしています。",
+	"speaker": "Ayachika Kitazaki",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/Kitazaki.jpg",
+	"company": "Nora Hacker / SRE"
+}, {
+	"time": "21:50-22:00",
+	"title": "Wrap Up",
+	"abstract": "Closing Remarks",
+	"speaker": "Your Hosts",
+	"photo": "https://nrcon.nodered.org/assets/img/speaker/noimage.png"
+}]
