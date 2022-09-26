@@ -34,8 +34,8 @@
 }, {
 	"time": "19:30-20:00",
 	"language": "(EN)",
-	"title": "TOKYO TOILET Project -Case study using Node-RED at Hiroo Higashi Park-",
-	"abstract": "趣味の世界でNode-REDを使いSNSで情報発信していたことが発端で大きなデザインプロジェクトのプログラム担当として加わることができました。デザイナーからの要望をNode-REDを使って作り上げることができ７月に完成しました。そのプロジェクトの紹介をしたいとおもいます。",
+	"title": "Do you know there is a toilet in Tokyo where Node-RED is used?",
+	"abstract": "A project called TOKYO TOILET has begun in 2020 to renew public toilets in Tokyo’s Shibuya Ward. Node-RED is used in one of these toilets. When it comes to public toilets, each of us has our own image of them. So, aren’t you curious what in the world the toilets in Tokyo did with Node-RED?",
 	"speaker": "Takahiro Nakahata",
 	"photo": "https://nrcon.nodered.org/assets/img/speaker/Nakahata.jpg",
 	"company": "SmartLight Co.,Ltd."
