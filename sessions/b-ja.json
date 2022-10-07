@@ -1,16 +1,9 @@
 [{
-	"time": "12:00-12:40",
+	"time": "12:30-13:20",
 	"title": "Opening Keynote",
 	"speaker": "Nick O'Leary",
 	"photo": "https://nrcon.nodered.org/assets/img/speaker/nick.jpg",
 	"company": "FlowForge Inc."
-}, {
-	"time": "12:50-13:20",
-	"title": "Utilization of Node-RED in the Fintech Sphere",
-	"abstract": "In this speech, i will demonstrate how Node-RED can be used for the realization of different commercial cases in the fintech sphere, also share a lot of valuable technical insights regarding the ways of working with Node-RED, showing how it can be used to solve real problems in the fintech domain.",
-	"speaker": "Dmytro Doroshenko",
-	"photo": "https://nrcon.nodered.org/assets/img/speaker/dmytro.jpg",
-	"company": "42flows.tech"
 }, {
 	"time": "13:20-13:35",
 	"title": "Break"
