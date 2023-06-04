@@ -1,0 +1,134 @@
+/* Footer Area Start */
+footer{
+	background: #161E26;
+	text-align: center;
+}
+.site-info{
+    position: relative;
+    padding: 30px 0;
+    margin-bottom: 30px;
+	p{
+		font-size: 13px;
+		color: #9e9e9e;
+	}
+  a{
+    color: #fff;
+    &:hover{
+      color: $preset;
+    }
+  }
+}
+.social-icons-footer{
+	ul{
+		margin: 0;
+	    padding: 0;
+	    list-style: none;
+    li{
+    	display: inline-block;
+    }
+	}
+  a{  
+  	color: #888;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid rgba(255,254,254,.07);
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .facebook a:hover{
+    border-color: #4867aa;
+    color: #4867aa;
+  }
+  .twitter a:hover{
+    border-color: #1da1f2;
+    color: #1da1f2;
+  }
+  .linkedin a:hover{
+    border-color: #0077B5;
+    color: #0077B5;
+  }
+  .google a:hover{
+    border-color: #ea4335;
+    color: #ea4335;
+  }
+  .pinterest a:hover{
+    border-color: #bd081c;
+    color: #bd081c;
+  }
+}
+.link-list{
+  margin: 15px;
+  li{
+    display: inline-block;
+    padding: 7px 10px;
+    a{
+      color: #9e9e9e;
+      &:hover{
+        color: $preset;
+      }
+    }
+  }
+}
+/* Subscribe Form */
+.subscribe-inner{
+	padding: 50px 0;
+  text-align: center;
+    .subscribe-title{
+    	color: #fff;
+    	font-size: 26px;
+    	text-center: center;
+    	margin-bottom: 50px;
+    	position: relative;
+    }
+    p{
+    	color: #888;
+    	margin-bottom: 30px;
+    }
+    .sub-btn{
+    	margin: 0;
+	    width: 12rem;
+	    padding: 18px 40px;
+	    border-radius: 30px;
+	    min-width: 12rem;
+	    position: absolute;
+	    top: 0;
+      border: none;
+	    bottom: 0;
+	    right: 0;
+	    i{
+	    	margin-right: 5px;
+	    }
+    }
+    .form-control{
+    	position: relative;
+	    background: #252D37;
+	    border: 1px solid #252D37;
+	    border-radius: 0px;
+	    box-shadow: none;
+	    color: #fff!important;
+	    border-radius: 30px;
+	    height: 55px;
+	    margin-right: -1px;
+	    width: 90%;
+    }
+    .form-control:focus{
+		color: #212121;
+	    border-color: $preset;
+	    outline: 0;
+	}
+    .form-inline{
+    	position: relative;
+    	margin-bottom: 30px;
+    	margin: 0 auto;
+    	width: 100%;
+    }
+}
+.footer-logo{
+	margin-bottom: 50px;
+}
