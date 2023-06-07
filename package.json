@@ -1,0 +1,24 @@
+{
+  "name": "nrcon",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Node-RED Con Website",
+  "scripts": {
+    "build": "npx tailwindcss -i ./css/src/input.css -o css/style.css",
+    "watch": "npx tailwindcss -i ./css/src/input.css -o css/style.css --watch"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-red/nrcon.git"
+  },
+  "author": "Nick O'Leary",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/node-red/nrcon/issues"
+  },
+  "homepage": "https://github.com/node-red/nrcon#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
