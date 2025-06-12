@@ -11,9 +11,13 @@ p {
 }
 
 body {
-    background-color: black;
+    background-color: rgba(33, 33, 35, 1);
     background-image: url(/images/layered-waves.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+#content {
+    background-color: rgba(33, 33, 35, 0.5)
 }
