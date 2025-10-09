@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Structured data for Node-RED Con 2025 event. Implements schema.org/Event in JSON-LD format -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Node-RED Con 2025",
+      "startDate": "2025-11-04T14:00:00Z",
+      "endDate": "2025-11-04T20:00:00Z",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://events.zoom.us/ev/AqhqiQ8mTK2lnAoOEH8c8TA1a_9MzVhZq_T7d1-kMHlHDt2_Qh_0~AtGCPAkmAoExiCJsd78_H_Yhh08dUSSmQS-i0v_py23w3tVC9YSEoaH1h59aULfT7wiM2DMYAbOunNlrFhEBGxt17Q"
+      },
+      "image": [
+        "https://nrcon.nodered.org/images/nrcon.png"
+      ],
+      "description": "Node-RED Con 2025 is an online conference showcasing how Node-RED drives innovation across industries. Join talks, demos, and discussions with developers and engineers.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Node-RED Community",
+        "url": "https://nodered.org"
+      }
+    }
+    </script>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
