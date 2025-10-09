@@ -6,7 +6,6 @@
   "scripts": {
     "build": "npx tailwindcss -i ./css/src/input.css -o css/style.css",
     "watch": "npx tailwindcss -i ./css/src/input.css -o css/style.css --watch"
-    
   },
   "repository": {
     "type": "git",
@@ -20,5 +19,8 @@
   "homepage": "https://github.com/node-red/nrcon#readme",
   "devDependencies": {
     "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "@justinribeiro/lite-youtube": "^1.8.2"
   }
 }
