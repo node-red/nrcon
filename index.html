@@ -42,7 +42,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" href="favicon.ico">
     <title>Node-RED Con</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap' rel='stylesheet' type='text/css'>
     <link href="/css/style.css" rel="stylesheet">
   </head>
   <body class="flex flex-col min-h-screen">
@@ -56,42 +56,178 @@
         </div>
       </div>
     </div>
-    <div class="flex-grow max-w-2xl mx-auto w-full">
+    <div class="flex-grow max-w-6xl mx-auto w-full">
       <!--Main-->
-      <div id="content" class="container px-8 pt-8 sm:pt-10 mx-auto space-y-12 pb-24">
+      <div id="content" class="container px-6 sm:px-10 pt-10 sm:pt-14 mx-auto space-y-16 sm:space-y-20 pb-32">
 
         <!-- HERO -->
-        <div class="flex flex-col mx-auto justify-center items-center">
-          <div class="w-24">
+        <div class="flex flex-col mx-auto justify-center items-center max-w-3xl">
+          <div class="w-16 sm:w-20">
             <img src="https://nodered.org/about/resources/media/node-red-hexagon.svg" />
           </div>
-          <div class="text-white space-y-1 md:space-y-2 text-center pb-3">
-            <h1 class="text-2xl sm:text-4xl">Node-RED Con 2026</h1>
-            <h2 class="text-2xl">Tuesday, November 3, 2026 | Online | Free</h2>
-            <h3 class="text-xl pt-2" style="color: #f87171;">Node-RED at the Edge of Intelligence</h3>
+          <div class="text-white space-y-2 sm:space-y-3 text-center pt-4 pb-3">
+            <span class="inline-block text-xs sm:text-sm uppercase tracking-[0.2em] font-semibold text-red-300 bg-red-900/40 border border-red-700/40 rounded-full px-4 py-1">
+              Call for Papers is open
+            </span>
+            <h1 class="text-3xl sm:text-5xl font-bold pt-3">Node-RED Con 2026</h1>
+            <h2 class="text-lg sm:text-2xl font-normal text-gray-200">Tuesday, November 3, 2026 &nbsp;·&nbsp; Online &nbsp;·&nbsp; Free</h2>
+            <h3 class="text-lg sm:text-xl pt-2 font-normal" style="color: #f87171;">Node-RED at the Edge of Intelligence</h3>
           </div>
         </div>
 
-        <!-- DESCRIPTION + CFP CTA -->
-        <div class="mx-4 md:mx-auto items-center text-white max-w-2xl text-lg space-y-8">
-          <p class="text-justify">
-            Node-RED Con is back for 2026. Last year the community showed up in force: 1,700+ registrants, 1,100+ live attendees, 35+ countries.
+        <!-- DESCRIPTION + CFP CTA (above the fold) -->
+        <div class="mx-auto items-center text-white max-w-2xl text-lg leading-relaxed space-y-6">
+          <p>
+            Node-RED Con is back for 2026. Last year the community showed up in force: <strong class="text-white">1,700+ registrants, 1,100+ live attendees, 35+ countries.</strong>
           </p>
-          <p class="text-justify">
-            This year's theme is <strong>Node-RED at the Edge of Intelligence</strong>. We're looking for talks that show what's possible when Node-RED meets edge computing, industrial automation, and AI. Real deployments, hard-won lessons, and the problems worth solving.
+          <p>
+            This year's theme is <strong class="text-white">Node-RED at the Edge of Intelligence</strong>. The Call for Papers is open — submit your talk before July 31.
           </p>
-          <p class="text-justify">
-            Speaking at Node-RED Con means reaching a global audience of developers and engineers actively building with Node-RED in production. Sessions are recorded and published: last year's talks accumulated over 3,000 views on the <a href="https://www.youtube.com/playlist?list=PLyNBB9VCLmo2yvFdVZOv41NUEzuw-CAZX" target="_blank" style="color: #f87171;">Node-RED Con 2025 playlist</a>.
-          </p>
-          <p class="text-justify">
-            <strong>The Call for Papers is open. Submit your talk before July 31.</strong>
-          </p>
-          <div class="text-center">
-            <a class="inline-block p-6 border border-white rounded-md bg-red-800 text-2xl hover:bg-red-700" target="_blank" href="https://papercall.io/node-red-con-2026">
+          <div class="text-center pt-4">
+            <a class="inline-block px-10 py-5 rounded-md bg-red-800 text-xl sm:text-2xl font-semibold shadow-lg shadow-black/30 hover:bg-red-700 transition-colors" target="_blank" href="https://forms.gle/czKQddNAX67tg8ks7">
               Submit a Talk
             </a>
-            <p class="mt-4 text-gray-400 text-base">Want to be notified when registration opens? <a href="https://flowfuse.com/blog/2026/06/announcing-node-red-con-2026/#stay-in-the-loop" target="_blank" style="color: #f87171;">FlowFuse will let you know — sign up here.</a></p>
+            <p class="mt-4 text-gray-300 text-base">Want to be notified when registration opens? <a href="https://flowfuse.com/blog/2026/06/announcing-node-red-con-2026/#stay-in-the-loop" target="_blank" class="underline decoration-red-400/50 hover:decoration-red-400" style="color: #f87171;">FlowFuse will let you know — sign up here.</a></p>
           </div>
+        </div>
+
+        <!-- WHAT WE'RE LOOKING FOR -->
+        <div class="mx-auto text-white space-y-8">
+          <div class="text-center space-y-1">
+            <p class="text-xs uppercase tracking-[0.2em] text-red-300 font-semibold">Submissions</p>
+            <h2 class="text-2xl sm:text-3xl font-bold">What we're looking for</h2>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+            <div class="panel rounded-xl border-l-4 border-red-700 p-6 space-y-3 lg:col-span-2">
+              <h3 class="text-xl font-bold text-white">Full Talks &amp; Demos <span class="block sm:inline text-sm font-normal text-gray-400 mt-1 sm:mt-0">(20-25 min + Q&amp;A)</span></h3>
+              <p class="text-gray-200">Technical talks, case studies, and practical demonstrations. Submissions are particularly encouraged in these areas:</p>
+              <ul class="list-disc list-inside text-gray-200 space-y-1 ml-1 columns-1 sm:columns-2 gap-x-6">
+                <li>Real-world deployments of Node-RED in production</li>
+                <li>AI integration: LLMs, agents, MCP</li>
+                <li>Edge computing architectures</li>
+                <li>Industrial use cases: PLCs, SCADA, OPC-UA, MQTT</li>
+                <li>Using AI tools to build &amp; manage flows</li>
+              </ul>
+            </div>
+
+            <div class="grid grid-rows-2 gap-5">
+              <div class="panel rounded-xl border-l-4 border-red-700 p-6 space-y-2">
+                <h3 class="text-lg font-bold text-white">Lightning Talks <span class="block text-sm font-normal text-gray-400">(8-10 min + Q&amp;A)</span></h3>
+                <p class="text-gray-200 text-base">Where the creativity of the community shines — any project you're proud of, however unconventional. IoT/IIoT and AI encouraged, not required.</p>
+              </div>
+
+              <div class="panel rounded-xl border-l-4 border-red-700 p-6 space-y-2">
+                <h3 class="text-lg font-bold text-white">Panelists</h3>
+                <p class="text-gray-200 text-base">Experts with strong opinions on industrial automation, AI in industrial environments, IoT security, or the future of low-code.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel rounded-xl p-6">
+            <h3 class="text-lg font-bold text-white mb-3">Submission guidelines</h3>
+            <ul class="list-disc list-inside text-gray-200 space-y-1.5 ml-1">
+              <li>All presentations must be in English</li>
+              <li>Presentations should be practical and provide real-world examples</li>
+              <li>Include a clear abstract (250-500 words) covering your topic, key takeaways, and intended audience</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- IMPORTANT DATES -->
+        <div class="mx-auto text-white space-y-6">
+          <div class="text-center space-y-1">
+            <p class="text-xs uppercase tracking-[0.2em] text-red-300 font-semibold">Timeline</p>
+            <h2 class="text-2xl sm:text-3xl font-bold">Important dates</h2>
+          </div>
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+            <div class="panel rounded-xl p-5 text-center space-y-1">
+              <p class="text-xs uppercase tracking-wide text-gray-400">CFP closes</p>
+              <p class="font-semibold text-white leading-snug">Fri, July 31<br class="hidden sm:block">2026</p>
+            </div>
+            <div class="panel rounded-xl p-5 text-center space-y-1">
+              <p class="text-xs uppercase tracking-wide text-gray-400">Speaker notification</p>
+              <p class="font-semibold text-white leading-snug">By Fri, Aug 21<br class="hidden sm:block">2026</p>
+            </div>
+            <div class="panel rounded-xl p-5 text-center space-y-1">
+              <p class="text-xs uppercase tracking-wide text-gray-400">Speaker confirmation</p>
+              <p class="font-semibold text-white leading-snug">By Fri, Sep 4<br class="hidden sm:block">2026</p>
+            </div>
+            <div class="panel rounded-xl p-5 text-center space-y-1 border border-red-700/50">
+              <p class="text-xs uppercase tracking-wide text-red-300">Conference</p>
+              <p class="font-semibold text-white leading-snug">Tue, Nov 3<br class="hidden sm:block">2026</p>
+            </div>
+          </div>
+          <p class="text-gray-300 text-base text-center">14:00–20:00 GMT &nbsp;·&nbsp; 15:00–21:00 CET &nbsp;·&nbsp; 09:00–15:00 EST &nbsp;·&nbsp; 06:00–12:00 PST</p>
+        </div>
+
+        <!-- WHY SPEAK -->
+        <div class="mx-auto text-white space-y-6">
+          <div class="text-center space-y-1">
+            <p class="text-xs uppercase tracking-[0.2em] text-red-300 font-semibold">The payoff</p>
+            <h2 class="text-2xl sm:text-3xl font-bold">Why speak</h2>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5 text-lg">
+            <div class="panel rounded-xl p-6 space-y-2">
+              <p class="text-3xl font-bold text-red-700/70 leading-none">01</p>
+              <p><strong class="text-white">Reach a global audience.</strong> <span class="text-gray-200">Node-RED Con 2025 welcomed 1,700+ registered and 1,100+ live attendees from 35+ countries — including the US, Germany, the UK, the Netherlands, Canada, and beyond.</span></p>
+            </div>
+            <div class="panel rounded-xl p-6 space-y-2">
+              <p class="text-3xl font-bold text-red-700/70 leading-none">02</p>
+              <p><strong class="text-white">Present to an engaged live audience.</strong> <span class="text-gray-200">Sessions averaged 350+ live attendees, with the most-watched talks drawing over 600 concurrent viewers.</span></p>
+            </div>
+            <div class="panel rounded-xl p-6 space-y-2">
+              <p class="text-3xl font-bold text-red-700/70 leading-none">03</p>
+              <p><strong class="text-white">Extend your reach beyond the event.</strong> <span class="text-gray-200">All sessions are recorded and published. The <a href="https://www.youtube.com/playlist?list=PLyNBB9VCLmo2yvFdVZOv41NUEzuw-CAZX" target="_blank" class="underline decoration-red-400/50 hover:decoration-red-400" style="color: #f87171;">Node-RED Con 2025 playlist</a> has accumulated 3,100+ views — and growing.</span></p>
+            </div>
+            <div class="panel rounded-xl p-6 space-y-2">
+              <p class="text-3xl font-bold text-red-700/70 leading-none">04</p>
+              <p><strong class="text-white">Join the conversation.</strong> <span class="text-gray-200">Connect with developers, engineers, and IIoT professionals actively building with Node-RED in production environments.</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SPEAKER QUOTES -->
+        <div class="mx-auto text-white space-y-6">
+          <div class="text-center space-y-1">
+            <p class="text-xs uppercase tracking-[0.2em] text-red-300 font-semibold">Community</p>
+            <h2 class="text-2xl sm:text-3xl font-bold">What past speakers said</h2>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <figure class="panel rounded-xl p-6 flex flex-col border border-white/10">
+              <span class="text-5xl font-bold text-red-700/60 leading-none">&ldquo;</span>
+              <blockquote class="text-gray-100 italic flex-grow mt-1">It's an incredibly supportive environment that makes sharing your work feel less like a formal presentation and more like a great conversation.</blockquote>
+              <figcaption class="mt-4 pt-4 border-t border-white/10 text-sm">
+                <span class="block font-semibold text-white not-italic">Øivind Heggland</span>
+                <span class="text-gray-400 uppercase tracking-wide text-xs">Node-RED Con 2025</span>
+              </figcaption>
+            </figure>
+            <figure class="panel rounded-xl p-6 flex flex-col border border-white/10">
+              <span class="text-5xl font-bold text-red-700/60 leading-none">&ldquo;</span>
+              <blockquote class="text-gray-100 italic flex-grow mt-1">The preparation over the past weeks and the coordination on the day itself were really impressive. It all felt smooth, supportive, and community-first.</blockquote>
+              <figcaption class="mt-4 pt-4 border-t border-white/10 text-sm">
+                <span class="block font-semibold text-white not-italic">Felix Reck</span>
+                <span class="text-gray-400 uppercase tracking-wide text-xs">Node-RED Con 2025</span>
+              </figcaption>
+            </figure>
+            <figure class="panel rounded-xl p-6 flex flex-col border border-white/10">
+              <span class="text-5xl font-bold text-red-700/60 leading-none">&ldquo;</span>
+              <blockquote class="text-gray-100 italic flex-grow mt-1">As someone with little to no experience presenting, I felt supported and encouraged every step of the way.</blockquote>
+              <figcaption class="mt-4 pt-4 border-t border-white/10 text-sm">
+                <span class="block font-semibold text-white not-italic">Josh Dudley</span>
+                <span class="text-gray-400 uppercase tracking-wide text-xs">Node-RED Con 2025</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- SECOND CTA -->
+        <div class="mx-auto max-w-2xl text-white text-lg space-y-4 text-center">
+          <p class="text-xl"><strong>The Call for Papers is open. Submit your talk before July 31.</strong></p>
+          <a class="inline-block px-10 py-5 rounded-md bg-red-800 text-xl sm:text-2xl font-semibold shadow-lg shadow-black/30 hover:bg-red-700 transition-colors" target="_blank" href="https://forms.gle/czKQddNAX67tg8ks7">
+            Submit a Talk
+          </a>
+          <p class="mt-4 text-gray-300 text-base">Want to be notified when registration opens? <a href="https://flowfuse.com/blog/2026/06/announcing-node-red-con-2026/#stay-in-the-loop" target="_blank" class="underline decoration-red-400/50 hover:decoration-red-400" style="color: #f87171;">FlowFuse will let you know — sign up here.</a></p>
         </div>
 
       </div>
