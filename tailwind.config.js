@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./index*"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['"Public Sans"', "Helvetica", "Arial", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }

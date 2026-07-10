@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 html {
-    font-family: "Roboto Slab";
+    font-family: "Public Sans", Helvetica, Arial, sans-serif;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif
+h1, h2, h3 {
+    font-weight: 700;
 }
 
 body {
@@ -19,5 +19,10 @@ body {
 }
 
 #content {
-    background-color: rgba(33, 33, 35, 0.5)
+    background-color: rgba(33, 33, 35, 0.55)
+}
+
+.panel {
+    background-color: rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(2px);
 }
